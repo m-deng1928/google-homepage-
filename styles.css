@@ -1,0 +1,113 @@
+
+.wholepage{
+    text-align: center;
+
+}
+#appslogo{
+    padding-left: 10px;
+}
+
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    display: inline block;
+    padding-bottom: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+
+.leftnav{
+    position: absolute;
+    top: 8px;
+    left: 12px;
+
+}
+.rightnav{
+    position: absolute;
+    top: 8px;
+    right: 12px;
+
+}
+#searchbar{
+    background-color:rgb(255, 255, 255);
+    height:30px;
+    vertical-align:top;
+    border:1px solid #dfe1e5;
+    border-radius:8px;
+    box-shadow: none;
+    transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    padding-top:11px;
+    padding-right:28px;
+    padding-left:30px;
+    height: 40px;
+    width: 300px;
+    border-width: 2px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -webkit-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -ms-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -o-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+/*google search button with hover effects*/
+.searchbutton {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.searchbutton:hover {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #535353;
+    border: 1px solid #535353;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+.logo{
+    position: relative;
+    padding: 60px;
+    top: 41px;
+}
